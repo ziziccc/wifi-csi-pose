@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <packageLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'g_weights_loaded' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:29.094+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ZL20g_pool_requant_shift_2' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.993+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ZL19g_pool_requant_mult_2' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.890+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ZL20g_pool_requant_shift_1' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.840+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ZL19g_pool_requant_mult_1' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.790+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ZL20g_pool_requant_shift_0' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.738+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ZL19g_pool_requant_mult_0' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.689+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'g_head_fc3_out_scale' is power-on initialization." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.641+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:28.140+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_BREADY' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.371+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWUSER' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.306+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWREGION' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.260+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWQOS' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.201+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWPROT' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.152+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWCACHE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.097+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWLOCK' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:27.044+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWBURST' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:26.995+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWSIZE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:26.949+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWLEN' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:26.902+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:26.847+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWADDR' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:26.796+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'full_pose_accel_Pipeline_FINAL_LOOP/m_axi_gmem2_AWVALID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:26.747+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARUSER' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:21.132+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARREGION' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:21.065+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARQOS' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:21.005+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARPROT' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.940+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARCACHE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.875+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARLOCK' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.816+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARBURST' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.755+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARSIZE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.677+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARLEN' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.616+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.547+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARADDR' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.477+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'fc1_requant_4way_banked_Pipeline_FC1_IN/m_axi_gmem1_ARVALID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:49:20.410+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARUSER' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.397+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARREGION' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.335+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARQOS' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.282+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARPROT' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.222+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARCACHE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.171+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARLOCK' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.111+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARBURST' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:48.060+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARSIZE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:47.998+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARLEN' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:47.943+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:47.894+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARADDR' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:47.846+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_input_copies_Pipeline_LOAD_INPUT_COPIES/m_axi_gmem0_ARVALID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:47.796+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARUSER' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:45.031+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARREGION' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.974+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARQOS' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.927+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARPROT' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.875+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARCACHE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.827+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARLOCK' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.766+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARBURST' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.730+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARSIZE' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.656+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARLEN' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.606+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.557+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARADDR' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.510+0900" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'load_i32_array_Pipeline_LOAD_I32_ARRAY/m_axi_gmem1_ARVALID' to 0." projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:48:44.460+0900" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'full_pose_accel_sitofp_32s_32_7_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:53:48.403+0900" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'full_pose_accel_fmul_32ns_32ns_32_5_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:53:45.176+0900" type="Warning"/>
+      </simLog>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'full_pose_accel_sitofp_32s_32_7_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:51:54.064+0900" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'full_pose_accel_fmul_32ns_32ns_32_5_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;&#xD;&#xA;create_ip: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 593.285 ; gain = 43.898&#xD;" projectName="pl_accel_v6" solutionName="sol1" date="2026-05-26T17:51:48.049+0900" type="Warning"/>
+      </packageLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
