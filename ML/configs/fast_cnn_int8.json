@@ -1,0 +1,16 @@
+{
+  "checkpoint": "../outputs/multi_esp_fast_pose_cnn/best_model.pt",
+  "data_cache": "../data_cache",
+  "split": "test",
+  "window_size": 10,
+  "window_stride": 10,
+  "output_dir": "../outputs/int8_fast_cnn",
+  "batch_size": 60,
+  "calibration_windows": 1024,
+  "eval_windows": 64,
+  "activation_percentile": 99.999,
+  "max_observer_samples": 262144,
+  "per_update_samples": 16384,
+  "device": "cpu",
+  "sample_strategy": "even"
+}

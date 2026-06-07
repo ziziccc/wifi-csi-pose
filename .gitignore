@@ -1,0 +1,37 @@
+# --- ESP-IDF (ESP-RX / ESP-TX) build outputs ---
+**/build/
+ESP-TX/managed_components/
+
+# --- Vitis HLS generated solution / logs / crash dumps ---
+HLS/**/sol1/
+HLS/**/*.log
+HLS/**/hs_err_pid*.dmp
+HLS/**/hs_err_pid*.log
+
+# --- Vivado generated project directories ---
+vivado/**/*.cache/
+vivado/**/*.gen/
+vivado/**/*.runs/
+vivado/**/*.sim/
+vivado/**/*.ip_user_files/
+vivado/**/.Xil/
+vivado/**/*.jou
+vivado/**/*.log
+vivado/**/*.str
+vivado/**/webtalk*
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Generated inference outputs / caches ---
+petalinux/tools/**/outputs/
+petalinux/tools/**/_csv_compare_cache/
+ML/outputs/
+
+# --- Large data / model files (fetch or share separately) ---
+ML/infer_csv/
+tools/models/*.task
+
+# --- Runtime capture output ---
+captures/

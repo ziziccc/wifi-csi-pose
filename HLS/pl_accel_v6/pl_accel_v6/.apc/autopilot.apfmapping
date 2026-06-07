@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="full_pose.cpp" path="D:\khu\4-1\project\dev\HLS\pl_accel_v6\full_pose.cpp"/>
+    <originFiles name="full_pose.h" path="D:\khu\4-1\project\dev\HLS\pl_accel_v6\full_pose.h"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="D:\khu\4-1\project\dev\HLS\pl_accel_v6\testbench.cpp"/>
+    <originFiles name="test_vectors.h" path="D:\khu\4-1\project\dev\HLS\pl_accel_v6\test_vectors.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
